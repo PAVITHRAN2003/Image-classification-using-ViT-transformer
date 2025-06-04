@@ -17,11 +17,6 @@ This project demonstrates the application of a Vision Transformer (ViT) for imag
 ## Model Used
 * **Vision Transformer (ViT)**: This project utilizes a pre-defined Vision Transformer model (e.g., `vit_b_16` from `torchvision.models` or similar variants available on Hugging Face) for its image classification task. ViT models operate by breaking images into fixed-size patches, linearly embedding them, adding position embeddings, and then feeding the resulting sequence of vectors to a standard Transformer encoder.
 
-## Deployment and Demo
-The trained image classification model has been deployed as a publicly accessible web application on Hugging Face Spaces, allowing for easy interaction and demonstration. A video recording is also available to walk through its functionality and usage.
-* **Hugging Face Space App Link**: [https://huggingface.co/spaces/shishir1/Dog_and_Cat_Classifier](https://huggingface.co/spaces/shishir1/Dog_and_Cat_Classifier)
-* **UBbox Video Link**: [https://buffalo.box.com/s/6g8gxfzdudkrkv7qfzzy1o9x5ya1b35o](https://buffalo.box.com/s/6g8gxfzdudkrkv7qfzzy1o9x5ya1b35o)
-
 ## Setup and Installation
 To set up this project locally, follow these steps:
 
@@ -39,11 +34,11 @@ To set up this project locally, follow these steps:
 
 ## Usage
 The core logic for this image classification project is contained within the Jupyter Notebook:
-* `a2_bonus_vit_pgnanase_shebbar.ipynb`
+* `Image_Classification_Vit.ipynb`
 
 To run the project:
 1.  Open the Jupyter Notebook:
     ```bash
-    jupyter notebook "a2_bonus_vit_pgnanase_shebbar.ipynb"
+    jupyter notebook "Image_Classification_Vit.ipynb"
     ```
 2.  Execute the cells sequentially to load the dataset, preprocess images, fine-tune the ViT model, evaluate its performance, and prepare for deployment.
